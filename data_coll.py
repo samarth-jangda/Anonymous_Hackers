@@ -1,4 +1,4 @@
-# Only used with Flask-app.py
+# Only used with Flask-app.py of the chatbot
 from os import listdir
 x = listdir("C:\\data")
 from json import load
