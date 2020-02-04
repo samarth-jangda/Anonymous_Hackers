@@ -57,7 +57,7 @@ test = cdf[~msk]
 nw = sns.scatterplot(x = "AGE", y = "experience ",data = train, color = "yellow")
 print(nw)
 
-
+#The multilinear model hich is used to chech the basic level of the student.
 from sklearn import linear_model
 regr = linear_model.LinearRegression()
 cdf['ENGINESIZE'] = cdf['ENGINESIZE'].map(lambda x : float(x))
