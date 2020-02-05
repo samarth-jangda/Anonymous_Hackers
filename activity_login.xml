@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_x="37dp"
+        android:layout_y="91dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_x="43dp"
+        android:layout_y="200dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="215dp"
+        android:layout_height="48dp"
+        android:layout_margin="500dp"
+        android:layout_x="105dp"
+        android:layout_y="349dp"
+        android:padding="10dp"
+        android:text="Test Your Level"
+        android:textStyle="bold" />
+
+</AbsoluteLayout>
